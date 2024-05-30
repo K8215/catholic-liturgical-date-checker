@@ -1,0 +1,86 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 1rem;
+	margin: 0;
+	text-align: left;
+}
+
+h2 {
+	font-size: 2.5rem;
+	margin: 0 0 15px;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+.error-message {
+	background: pink;
+	border-radius: 10px;
+	color: darkred;
+	margin: 15px 0 0;
+	padding: 5px;
+
+	p {
+		margin: 0;
+	}
+}
+
+.search-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.search {
+	padding: 100px 0;
+}
+
+.search-input {
+	padding: 15px;
+	max-width: 100%;
+	width: 600px;
+}
+
+.search-submit {
+	cursor: pointer;
+	width: 150px;
+}
+
+.day-block {
+	padding: 0 0 25px;
+}
+
+.celebrations {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	li {
+		margin: 0 0 1rem;
+	}
+}
+
+.halves {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+.attribution {
+	font-size: 12px;
+	margin: 100px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+	.halves {
+		flex-direction: column;
+		gap: 0;
+	}
+}
